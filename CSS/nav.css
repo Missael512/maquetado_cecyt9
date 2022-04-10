@@ -1,0 +1,43 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none; /* Quita los puntos de la lista */
+    padding-left: 0px;/* dimencion interna en un contenedor*/
+    background-color:#5F253E;
+    font-size: 30px;
+
+}
+
+.main-nav__item{
+    display: inline-block;/*forma horizontal*/
+    font-size: 30px;
+}
+/*Elemento especifico en css*/
+.main-nav__item a{
+    color:white;
+    padding: 5px;
+    border-radius: 23px;
+    text-decoration:none; /*quita la linea azul del hipervinculo*/
+    
+}
+/*Seudoclases*/
+
+/*Efecto hover-->Cuando el puntero pasa por el texto*/
+.main-nav__item a:hover{
+    background-color: azure;
+    color: #5F253E;
+}
+/* Efecto active-->Cuando esta en presionado se cambia a color red*/
+.main-nav__item a:active{
+    background-color:white;
+}
+
+/*Pseudo elementos*/
+
+.main-nav__item a::after{
+    content:""; /*Despues de cada elemento agrega / */
+}
+
+#Cabecera{
+    text-align: center;
+}
+

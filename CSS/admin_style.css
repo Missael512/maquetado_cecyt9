@@ -1,0 +1,21 @@
+.main_content{
+    border: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font: bold Georgia, Serif;
+}
+
+.main_content__text{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+
+  h1{
+    font: italic bold 50px Georgia, Serif;
+    color: #43001A;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+  }
+

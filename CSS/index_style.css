@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color:#43001A;
+}
+
+#Cabecera{
+    margin: 10px;
+    padding: 10px;
+}
+
+.Separaciones{
+    padding: 0px;
+    margin: 15px;
+}
+
+.input-class{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-color: #43001A;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #72022d;
+    font-size: 15px;
+    font-style: bolder;
+  }
+
+
+.main_button{
+    background-color: azure; 
+    color: black; 
+    border: 2px solid #43001A;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.main_button:hover{
+    background-color: #43001A;
+    color: azure;
+    transition-duration: 0.5s;
+}
